@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section id="fundo">
+      <header>
+        <div id="div-name">
+          <p id="name">Ana Júlia</p>
+        </div>
+        <div>
+          <label class="switch">
+            <input type="checkbox" id="check" onchange="darkmode()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </header>
+      <div id="position-linhas">
+        <a href="">
+          <img id="linhas" src="./imgs/LINHAS.png" alt="" />
+        </a>
+      </div>
+      <div id="caixa-apresentaçao">
+        <div id="caixa-texto">
+          <h1 class="title">Desenvolvedora Full-Stack</h1>
+          <p id="text-apresentaçao">
+            Bem-vindo ao meu portfólio! Me chamo Ana Júlia, sou desenvolvedora
+            full-stack apaixonada por criar experiências digitais atrativas e
+            funcionais. Aqui, você encontrará uma alguns dos meus projetos mais
+            recentes, onde a criatividade se encontra com a tecnologia!
+          </p>
+        </div>
+        <div id="foto2">
+          <img id="foto" src="./imgs/foto.png" alt="" />
+        </div>
+      </div>
+      <div id="position-quadrados">
+        <img id="quadrados" src="./imgs/quadrados.png" alt="" />
+      </div>
+    </section>
+
+    <section id="apresentaçao">
+      <h1 class="title" style="color: #4831d4">Apresentação</h1>
+      <p id="text-apresentaçao2">
+        Olá! Sou desenvolvedora full-stack com 1 ano de experiência em
+        transformar conceitos em interfaces dinâmicas e responsivas. Minha
+        jornada começou com uma paixão pela tecnologia e design, e desde então,
+        tenho trabalhado em projeto de aplicações web interativas. Adoro explorar novas
+        ferramentas e frameworks que aprimoram a experiência do usuário. Estou
+        sempre em busca de novos desafios e colaborações que me permitam crescer
+        e inovar. Tenho paixão por transformar designs em experiências de
+        usuário eficientes e acessíveis. Focada em otimização de desempenho,
+        boas práticas de código e colaboração com equipes, busco criar soluções
+        intuitivas que melhorem a experiência digital.
+      </p>
+    </section>
+
+    <section class="fundo-roxo">
+      <h1 class="title">Habilidades</h1>
+      <div id="cards">
+        <div class="box" key="0">
+          <p>HTML5</p>
+          <img src="./imgs/html5.png" alt="html">
+        </div>
+        <div class="box" key="1">
+          <p>CSS3</p>
+          <img src="./imgs/css3.png" alt="css">
+        </div>
+        <div class="box" key="2">
+          <p>JavaScript</p>
+          <img src="./imgs/javascript.png" alt="JavaScript">
+        </div>
+        <div class="box" key="3">
+          <p>Figma</p>
+          <img src="./imgs/figma.png" alt="figma">
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1 class="title" style="color: #4831d4">Projetos</h1>
+      <div class="carrossel">
+        <div class="slides">
+            <div class="slide active">
+              <a href="https://anajualvares.github.io/EditPhotograpy/">
+                <img class="site" src="./imgs/Site1.png" alt="site1">
+              </a>
+            </div>
+            <div class="slide">
+              <a href="https://anajualvares.github.io/Ogani/">
+                <img class="site" src="./imgs/Site2.png" alt="site2">
+              </a>
+            </div>
+            <div class="slide">
+              <a href="https://anajualvares.github.io/Delivery/">
+                <img class="site" src="./imgs/Site3.png" alt="site3">
+              </a>
+            </div>
+        </div>
+        <button class="prev" onclick="previousSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    </section>
+
+    <section class="fundo-roxo" style="text-align: center">
+      <h1 class="title" style="text-align: left">Contato</h1>
+      <form>
+        <label id="nomee" for="nome">Nome</label><br />
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Seu nome"
+          required
+        />
+
+        <label id="emaill" for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Seuemaill@gmail.com"
+          required
+        /><br /><br />
+
+        <label id="mensagemm" for="mensagem">Mensagem</label><br />
+        <textarea
+          id="mensagem"
+          name="mensagem"
+          rows="4"
+          cols="50"
+          placeholder="Olá, precisamos de um sistema de design para nossos produtos na Empresa X. Quando você poderá discutir isso?"
+        ></textarea
+        ><br />
+      </form>
+      <button>Enviar <img id="seta" src="./imgs/Arrow 1.png" /></button>
+    </section>
+
+    <section id="contato">
+      <h2>mais informações</h2>
+      <div id="redes">
+        <div class="rede">
+          <a href="mailto:anaju.alvares19@gmail.com">
+            <div class="box2">
+              <img src="./imgs/email.png" alt="e-mail">
+            </div>
+          </a>
+          <a href="mailto:anaju.alvares19@gmail.com">
+            <p>E-mail</p>
+          </a>
+          <a href="mailto:anaju.alvares19@gmail.com">
+            <p>anaju.alvares19@gmail.com</p>
+          </a>
+        </div>
+
+        <div class="rede">
+          <a href="https://wa.me/5531984875717?text=">
+            <div class="box2">
+              <img src="./imgs/telefone.png" alt="Telefone">
+            </div>
+          </a>
+          <a href="https://wa.me/5531984875717?text=">
+            <p>Telefone</p>
+          </a>
+          <a href="https://wa.me/5531984875717?text=">
+            <p>(31)98487-5717</p>
+          </a>
+        </div>
+
+        <div class="rede">
+          <a href="https://www.linkedin.com/in/ana-julia-alvares-a191a6271/">
+            <div class="box2">
+              <img src="./imgs/linkedin.png" alt="linkedin">
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/ana-julia-alvares-a191a6271/">
+            <p>Linkedin</p>
+          </a>
+          <a href="https://www.linkedin.com/in/ana-julia-alvares-a191a6271/">
+            <p>Ana julia Alvares</p>
+          </a>
+        </div>
+
+        <div class="rede">
+          <a href="https://github.com/AnajuAlvares">
+            <div class="box2">
+              <img src="./imgs/github.png" alt="github">
+            </div>
+          </a>
+          <a href="https://github.com/AnajuAlvares">
+            <p>GitHub</p>
+          </a>
+          <a href="https://github.com/AnajuAlvares">
+            <p>AnajuAlvares</p>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <script src="js.js"></script>
+  </body>
+</html>

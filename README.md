@@ -6,12 +6,14 @@ CSS3: Design responsivo, estilização e layouts modernos.
 JavaScript: Interatividades, animações e lógica do lado do cliente.
 
 A organização dos arquivos segue o padrão simples e direto para páginas estáticas:
+
 * `/imgs`: Pasta contendo todas as imagens, ícones e mídias utilizadas.
 * `index.html`: Arquivo principal com a estrutura e conteúdo da página.
 * `style.css`: Folha de estilo responsável por todo o visual e responsividade.
 * `js.js`: Arquivo com scripts para interações e comportamento dinâmico.
 
 Funcionalidades em Destaque:
+
 Design Responsivo: Adaptado perfeitamente para visualização em computadores, tablets e smartphones.
 Seção de Projetos: Galeria interativa exibindo os meus principais trabalhos acadêmicos e pessoais.
 Formulário de Contato / Links: Integração rápida para facilitar conexões profissionais.

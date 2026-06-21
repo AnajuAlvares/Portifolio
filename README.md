@@ -1,11 +1,9 @@
 Este é o repositório do meu portfólio web pessoal. Um espaço desenvolvido para apresentar quem eu sou, minhas habilidades técnicas, os projetos que desenvolvi e as formas de entrar em contato comigo.
 O projeto foi construído utilizando as tecnologias fundamentais do desenvolvimento web (Vanilla Stack), focando em uma estrutura limpa, estilização moderna e interatividade:
 
-HTML5: Estruturação semântica de todo o conteúdo.
-
-CSS3: Design responsivo, estilização e layouts modernos.
-
-JavaScript: Interatividades, animações e lógica do lado do cliente.
+HTML5: Estruturação semântica de todo o conteúdo;
+CSS3: Design responsivo, estilização e layouts modernos;
+JavaScript: Interatividades, animações e lógica do lado do cliente;
 
 A organização dos arquivos segue o padrão simples e direto para páginas estáticas:
 

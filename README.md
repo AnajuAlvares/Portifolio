@@ -21,6 +21,6 @@ Formulário de Contato / Links: Integração rápida para facilitar conexões pr
 Se quiser clonar este repositório e rodar na sua máquina, siga os passos abaixo:
 1. Clone o repositório:
    git clone [https://github.com/AnajuAlvares/Portifolio.git](https://github.com/AnajuAlvares/Portifolio.git)
-Navegue até a pasta do projeto:
+2. Navegue até a pasta do projeto:
   cd Portifolio
-Abra o arquivo index.html no seu navegador de preferência ou utilize a extensão Live Server no VS Code.
+3. Abra o arquivo index.html no seu navegador de preferência ou utilize a extensão Live Server no VS Code.
